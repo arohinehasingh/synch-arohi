@@ -1,4 +1,5 @@
 import { JSX, useState } from "react";
+import logo from "../assets/download (3).png";
 import { FaCheck, FaTimes, FaExchangeAlt, FaShieldAlt } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -139,7 +140,7 @@ const Services = () => {
           {/* Right Image */}
           <div className="col-lg-6 col-12 text-center mt-4 mt-lg-0">
             <img
-              src="src/assets/download (3).png"
+              src={logo}
               alt={tabContent[activeTab].title}
               className="img-fluid rounded shadow"
               style={{ maxWidth: "100%", height: "auto" }}

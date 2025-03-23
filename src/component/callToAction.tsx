@@ -1,4 +1,4 @@
-
+import Money from "../assets/money.webp";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { motion } from "framer-motion";
 import CountUp from "react-countup";
@@ -14,7 +14,8 @@ const CallToAction: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <img src="src/assets/money.webp" alt="Money Home" className="img-fluid" />
+        <img src={Money}
+         alt="Money Home" className="img-fluid" />
       </motion.div>
 
       {/* Heading with Animation */}

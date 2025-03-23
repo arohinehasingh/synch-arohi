@@ -1,4 +1,4 @@
-
+import Mockup from '../assets/download (3).png';
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaWallet } from "react-icons/fa";
@@ -42,7 +42,7 @@ const Hero = () => {
             transition={{ duration: 1 }}
           >
             <img
-              src="src/assets/download (3).png"
+              src={Mockup}
               alt="Mockup"
               className="img-fluid rounded shadow"
               style={{
