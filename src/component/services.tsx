@@ -1,4 +1,4 @@
-import React, { JSX, useState } from "react";
+import { JSX, useState } from "react";
 import { FaCheck, FaTimes, FaExchangeAlt, FaShieldAlt } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
